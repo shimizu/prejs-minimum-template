@@ -1,4 +1,4 @@
-# deckgl minimum template
+# preJS minimum template
 
 
 ## インストール
@@ -22,4 +22,4 @@
 ```
 
 
-.
+
