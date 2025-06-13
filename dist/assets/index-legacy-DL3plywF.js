@@ -1,0 +1,1 @@
+System.register([],(function(e,t){"use strict";return{execute:function(){var e=document.createElement("style");e.textContent="p{color:green;background-color:#ff0}\n/*$vite$:1*/",document.head.appendChild(e),alert("test")}}}));
