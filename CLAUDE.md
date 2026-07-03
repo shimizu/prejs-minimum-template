@@ -4,11 +4,12 @@
 - **名前**: prejs-minimum-template
 - **説明**: preJSプロジェクトのミニマムテンプレート
 - **バンドラー**: Vite
-- **言語**: JavaScript (ES6+), SCSS
+- **言語**: TypeScript, SCSS
 
 ## 開発環境
 ### 必要なコマンド
 - **開発サーバー起動**: `npm run dev`
+- **型チェック**: `npm run typecheck`
 - **本番ビルド**: `npm run build`
 - **プレビュー**: `npm run preview`
 - **デプロイ**: `npm run deploy`
@@ -17,7 +18,7 @@
 ```
 /
 ├── src/
-│   ├── index.js        # メインJavaScriptファイル
+│   ├── index.ts        # メインTypeScriptファイル
 │   └── index.scss      # メインスタイルファイル
 ├── index.html          # エントリーポイント
 ├── vite.config.js      # Vite設定
@@ -26,15 +27,13 @@
 
 ## 技術スタック
 - **Vite**: 高速ビルドツール・開発サーバー
-- **Babel**: ES6+トランスパイル（React preset含む）
+- **TypeScript**: 型チェック・TSソース管理
 - **Sass**: CSS拡張
 - **Video.js**: 動画プレイヤーライブラリ
-- **Legacy Plugin**: 古いブラウザサポート
 
 ## 開発時の注意事項
 - 開発サーバーは自動でブラウザを開く設定
 - ビルド出力は `dist/` ディレクトリ
-- IE11以外の古いブラウザをサポート
 - GitHub Pagesへのデプロイが可能
 
 ## 言語・地域設定

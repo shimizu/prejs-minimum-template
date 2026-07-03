@@ -1,3 +1,3 @@
 import './index.scss'
 
-alert("test")
+alert('test')

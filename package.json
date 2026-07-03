@@ -2,10 +2,11 @@
   "name": "prejs-minimum-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "dev": "vite",
     "start": "vite",
+    "typecheck": "tsc --noEmit",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
@@ -21,11 +22,8 @@
   },
   "homepage": "https://github.com/shimizu/prejs-minimum-template#readme",
   "devDependencies": {
-    "@babel/core": "^8.0.1",
-    "@babel/preset-env": "^8.0.2",
-    "@babel/preset-react": "^8.0.1",
-    "@vitejs/plugin-legacy": "^8.1.0",
     "sass": "^1.101.0",
+    "typescript": "^5.9.3",
     "vite": "^8.1.3"
   }
 }
