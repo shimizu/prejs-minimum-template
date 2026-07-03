@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/shimizu/prejs-minimum-template#readme",
   "devDependencies": {
-    "@babel/core": "^7.29.0",
-    "@babel/preset-env": "^7.29.2",
-    "@babel/preset-react": "^7.28.5",
-    "@vitejs/plugin-legacy": "^8.0.0",
-    "sass": "^1.98.0",
-    "vite": "^8.0.2"
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "@babel/preset-react": "^8.0.1",
+    "@vitejs/plugin-legacy": "^8.1.0",
+    "sass": "^1.101.0",
+    "vite": "^8.1.3"
   }
 }
